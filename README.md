@@ -1,6 +1,6 @@
 Writing Manpages With Mandoc
 ============================
-A work in progress guide to writing manpages using __mandoc__.
+A work in progress guide to writing manpages using `mandoc`.
 
 License
 -------

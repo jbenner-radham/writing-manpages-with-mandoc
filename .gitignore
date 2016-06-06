@@ -32,8 +32,10 @@ node_modules
 # Optional REPL history
 .node_repl_history
 
-# Output of documentation
+# Book build output
 _book
+
+# eBook build output
 book.pdf
 book.epub
 book.mobi
