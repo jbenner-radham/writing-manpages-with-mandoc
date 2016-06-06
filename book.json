@@ -1,5 +1,7 @@
 {
     "title": "Writing Manpages With Mandoc",
     "description": "A guide to writing manpages using mandoc.",
-    "author": "James Benner"
+    "author": "James Benner",
+    "language": "en",
+    "gitbook": ">= 3.0.0"
 }
