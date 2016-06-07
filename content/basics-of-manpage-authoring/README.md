@@ -11,7 +11,7 @@ It can also produce documents in HTML, text (ASCII and UTF-8), PDF, man and Post
 
 A Minimal Mdoc Document
 -----------------------
-Here we'll be going over the structure of a minimal mdoc manual as seen below.
+The **mdoc** markup language for the most part consists of lines which begin with a dot prefixed macro followed by a space and then the line text. Here we'll be going over the structure of a minimal mdoc manual as seen below.
 
 ```mdoc
 .Dd June 5, 2016
