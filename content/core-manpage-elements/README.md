@@ -29,3 +29,13 @@ Defines the date of authorship for the manpage and is defined by the `.Dd` macro
 - `.Dd June 07, 2016`
 - `.Dd June 7, 2016`
 - `.Dd $Mdocdate: June 7 2016 $`
+
+Document Title
+--------------
+The title of the document as specified by the `.Dt` macro.
+
+### Syntax
+- _TITLE section [arch]_
+
+### Examples
+- `.Dt MAN-TITLE 1`
