@@ -52,3 +52,10 @@ The title of the document as specified by the `.Dt` macro.
 
 ### Examples
 - `.Dt MAN-TITLE 1`
+
+Operating System Version
+------------------------
+Defined by the `.Os` macro. It displays the operating system name in the document footer by default when called without arguments. An operating system and version can be specified but it is recommended to invoke this macro without any arguments.
+
+### Syntax
+- _[system [version]]_
