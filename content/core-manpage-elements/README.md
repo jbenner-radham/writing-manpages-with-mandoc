@@ -22,8 +22,8 @@ Defines the date of authorship for the manpage and is defined by the `.Dd` macro
   - December
 
 ### Syntax
-- _month day, year_
-- **$Mdocdate:** _month day year_ **$**
+- **`.Dt`**_`month day, year`_
+- **`.Dt $Mdocdate:`**_` month day year `_**`$`**
 
 ### Examples
 - `.Dd June 07, 2016`
@@ -48,7 +48,7 @@ The title of the document as specified by the `.Dt` macro.
   - 9 _(Kernel Developer's Manual)_
 
 ### Syntax
-- _TITLE section [arch]_
+- **`.Dt`**_`TITLE section [arch]`_
 
 ### Examples
 - `.Dt MAN-TITLE 1`
@@ -58,4 +58,9 @@ Operating System Version
 Defined by the `.Os` macro. It displays the operating system name in the document footer by default when called without arguments. An operating system and version can be specified but it is recommended to invoke this macro without any arguments.
 
 ### Syntax
-- _[system [version]]_
+- **`.Os`**_`[system [version]]`_
+
+### Examples
+- `.Os`
+- `.Os BSD`
+- `.Os Darwin 14.5.0`
