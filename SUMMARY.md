@@ -7,5 +7,6 @@ Summary
   - [Operating System Version](content/preamble-elements/operating-system-version.md)
 - [Common Elements](content/common-elements/README.md)
   - [Document Name](content/common-elements/document-name.md)
+  - [Document Description](content/common-elements/document-description.md)
 - [Quotes and Text Enclosures](content/quotes-and-text-enclosures/README.md)
 - [Lists](content/lists/README.md)
